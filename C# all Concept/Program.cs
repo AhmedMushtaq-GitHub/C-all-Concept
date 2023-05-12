@@ -1,164 +1,164 @@
 ﻿////// All c# Concepts
 
-//////Print & Hold screen
+//print & hold screen
 
-////Console.WriteLine("Ahmed mushtaq");
-////Console.ReadLine();
+console.writeline("ahmed mushtaq");
+console.readline();
 
-//////Variables and Data Types:
+//variables and data types:
 
-////int age = 25;
-////string name = "John";
-////bool isEmployed = true;
-////double salary = 2500.50;
-////Console.WriteLine("int"+age + "\t string" + name + "\tbool" + isEmployed + "\tdouble" + salary);
+int age = 25;
+string name = "john";
+bool isemployed = true;
+double salary = 2500.50;
+console.writeline("int" + age + "\t string" + name + "\tbool" + isemployed + "\tdouble" + salary);
 
-//////Control Structures (if-else, switch-case, loops):
+//control structures (if-else, switch-case, loops):
 
-//////if-else
+//if-else
 
-////int number = 10;
+int number = 10;
 
-////if (number > 0)
-////{
-////    Console.WriteLine("Number is positive");
-////}
-////else if (number < 0)
-////{
-////    Console.WriteLine("Number is negative");
-////}
-////else
-////{
-////    Console.WriteLine("Number is zero");
-////}
+if (number > 0)
+{
+    console.writeline("number is positive");
+}
+else if (number < 0)
+{
+    console.writeline("number is negative");
+}
+else
+{
+    console.writeline("number is zero");
+}
 
-//////switch-case
+//switch-case
 
-////switch (number)
-////{
-////    case 0:
-////        Console.WriteLine("Number is zero");
-////        break;
-////    case 1:
-////    case 2:
-////        Console.WriteLine("Number is either 1 or 2");
-////        break;
-////    default:
-////        Console.WriteLine("Number is greater than 2");
-////        break;
-////}
+switch (number)
+{
+    case 0:
+        console.writeline("number is zero");
+        break;
+    case 1:
+    case 2:
+        console.writeline("number is either 1 or 2");
+        break;
+    default:
+        console.writeline("number is greater than 2");
+        break;
+}
 
-//////loops
+//loops
 
-////for (int i = 0; i < 5; i++)
-////{
-////    Console.WriteLine("Iteration: " + i);
-////}
+for (int i = 0; i < 5; i++)
+{
+    console.writeline("iteration: " + i);
+}
 
-////while (number > 0)
-////{
-////    Console.WriteLine("Number: " + number);
-////    number--;
-////}
+while (number > 0)
+{
+    console.writeline("number: " + number);
+    number--;
+}
 
-//////Arrays:
+//arrays:
 
-////int[] numbers = new int[5] { 1, 2, 3, 4, 5 };
+int[] numbers = new int[5] { 1, 2, 3, 4, 5 };
 
-////for (int i = 0; i < numbers.Length; i++)
-////{
-////    Console.WriteLine(numbers[i]);
-////}
+for (int i = 0; i < numbers.length; i++)
+{
+    console.writeline(numbers[i]);
+}
 
-//////Functions:
+//functions:
 
-////int AddNumbers(int a, int b)
-////{
-////    return a + b;
-////}
+int addnumbers(int a, int b)
+{
+    return a + b;
+}
 
-////int result = AddNumbers(5, 3);
-////Console.WriteLine("Result: " + result);
-
-
-///*Console.Write("Enter your name: ");
-//string uName = Console.ReadLine();
-//Console.WriteLine("Your name is " + uName);
-//*/
-////Console.ReadLine();
-////Console.WriteLine("Enter any number for Table");
-////int tNum =Convert.ToInt32( Console.ReadLine());
-////int sTable = 1;
-////while (sTable <= 20)
-////{
-////    Console.WriteLine(tNum + "*" + sTable + "=" + tNum*sTable);
-////    sTable++;
-////}
-////Console.ReadLine();
+int result = addnumbers(5, 3);
+console.writeline("result: " + result);
 
 
-//Console.WriteLine("Enter your Name");
-//Console.Write("Name :");
-//string? name = Console.ReadLine();
-//Console.WriteLine("Enter your passwor to unlock");
-//Console.Write("Password :");
-//string? pass = Console.ReadLine();
-//int password =Convert.ToInt32 (pass);
-//if (name != "Ahmed")
-//{
-//    Console.WriteLine("Who are you? Don't tuch AHmed's PC");
-//}
-//else if (password != 2526)
-//{
-//    Console.WriteLine("Rong password");
-//}
-//else
-//{
-//    Console.WriteLine("Well come Ch Ahmed");
-//}
-//Console.ReadLine();
+/*console.write("enter your name: ");
+string uname = console.readline();
+console.writeline("your name is " + uname);
+*/
+console.readline();
+console.writeline("enter any number for table");
+int tnum = convert.toint32(console.readline());
+int stable = 1;
+while (stable <= 20)
+{
+    console.writeline(tnum + "*" + stable + "=" + tnum * stable);
+    stable++;
+}
+console.readline();
 
-//Variables
-//string userName;
-//int userPassword;
 
-////Start Code
-//Console.Write("Enter User Name: ");
-//userName = Console.ReadLine();
-//Console.Write("Enter User Password: ");
-//userPassword = Convert.ToInt32(Console.ReadLine());
-//if (userName == "Ahmed" && userPassword == 1234)
-//{
-//    Console.WriteLine("WelCome Ahmed");
-//}
-//else
-//{
-//    Console.WriteLine("You Enter Wrong Data");
-//}
+console.writeline("enter your name");
+console.write("name :");
+string? name = console.readline();
+console.writeline("enter your passwor to unlock");
+console.write("password :");
+string? pass = console.readline();
+int password = convert.toint32(pass);
+if (name != "ahmed")
+{
+    console.writeline("who are you? don't tuch ahmed's pc");
+}
+else if (password != 2526)
+{
+    console.writeline("rong password");
+}
+else
+{
+    console.writeline("well come ch ahmed");
+}
+console.readline();
 
-//string userName;
-//int userPassword;
+variables
+string username;
+int userpassword;
 
-////Start Code
+//start code
+console.write("enter user name: ");
+username = console.readline();
+console.write("enter user password: ");
+userpassword = convert.toint32(console.readline());
+if (username == "ahmed" && userpassword == 1234)
+{
+    console.writeline("welcome ahmed");
+}
+else
+{
+    console.writeline("you enter wrong data");
+}
 
-//Console.Write("Enter User Name: ");
-//userName = Console.ReadLine();
-//if(userName == "Ahmed")
-//{
-//    Console.Write("Enter User Password: ");
-//    userPassword = Convert.ToInt32(Console.ReadLine());
-//    if (userPassword == 1234)
-//    {
-//        Console.WriteLine("WelCome Ahmed");
-//    }
-//    else
-//        Console.WriteLine("You Enter Wrong Password");
+string username;
+int userpassword;
 
-//}
-//else
-//{
-//    Console.WriteLine("You Enter Wrong Name");
-//}
+//start code
+
+console.write("enter user name: ");
+username = console.readline();
+if (username == "ahmed")
+{
+    console.write("enter user password: ");
+    userpassword = convert.toint32(console.readline());
+    if (userpassword == 1234)
+    {
+        console.writeline("welcome ahmed");
+    }
+    else
+        console.writeline("you enter wrong password");
+
+}
+else
+{
+    console.writeline("you enter wrong name");
+}
 
 string? inputValue, inputValue1 = null, inputValue2 = null, inputValue3 = null, inputValue4 = null;
 bool isContinue = true, isFirst = true;
